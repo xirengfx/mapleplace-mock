@@ -1,6 +1,6 @@
 html, body {
-width:100%;
-overflow-x:hidden;
+width: 100%;
+overflow-x: hidden;
 }
 
 footer {
@@ -11,16 +11,27 @@ footer {
   padding-bottom: 1rem;
 }
 
-.navbar {
-  background-color: #222831;
+.col {
+  padding: 0 !important;
 }
+
+.row {
+  margin: 0 !important;
+}
+
 .container {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
+/* NAVBAR */
+.navbar {
+  background-color: #222831;
+}
+
+
 /* MAIN */
-.features {
+.main-header {
   background-image: url('../images/bg1.png');
   background-repeat: no-repeat;
 }
@@ -33,13 +44,33 @@ footer {
   background-color: #69e0bd !important;
 }
 
+/* FEATURES */
+.features {
+  padding-bottom: 2rem;
+}
+
 .card-body {
   background-color: white;
 }
 
 .card {
   padding: 2px;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
+}
+
+/* NEWS & UPDATES */
+.news {
+  background-color: white;
+}
+
+
+/* LATEST FILES */
+.latest-files {
+  padding-top: 3rem;
+}
+
+.download-text {
+  color: #11698e;
 }
 
 /* FOOTER */
