@@ -1,0 +1,48 @@
+html, body {
+width:100%;
+overflow-x:hidden;
+}
+
+footer {
+  background-color: #222831;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  background-color: #222831;
+}
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* MAIN */
+.features {
+  background-image: url('../images/bg1.png');
+  background-repeat: no-repeat;
+}
+
+.badge {
+  padding: 0.35em 0.65em !important;
+}
+
+.online-notice {
+  background-color: #69e0bd !important;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card {
+  padding: 2px;
+  margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+.footer-text {
+  margin: auto;
+}
