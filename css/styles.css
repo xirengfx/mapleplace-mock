@@ -85,7 +85,7 @@ footer {
 }
 
 /* LATEST FILES */
-#latest-files-section{
+#latest-files {
   background-color: #f8f9fa;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -95,6 +95,40 @@ footer {
   color: #11698e;
 }
 
+/* RANKINGS TABLE */
+.rankings {
+  margin-top: 2rem;
+}
+
+.rankings-pages {
+  justify-content: center;
+}
+
+.rankings-search {
+  width: 50% !important;
+  margin-top: 1.5rem;
+}
+
+/* VOTE */
+.vote-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.vote-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  width: 50% !important;
+}
+
+.vote-placeholder {
+  text-align: center;
+}
+
+.vote-button {
+  text-align: center;
+}
 /* FOOTER */
 .footer-text {
   margin: auto;
