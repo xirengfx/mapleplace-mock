@@ -11,19 +11,6 @@ footer {
   padding-bottom: 1rem;
 }
 
-.col {
-  padding: 0 !important;
-}
-
-.row {
-  margin: 0 !important;
-}
-
-.container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 /* NAVBAR */
 .navbar {
   background-color: #222831;
@@ -89,14 +76,15 @@ footer {
 */
 
 /* NEWS & UPDATES */
-.news {
-  background-color: white;
+.news-card {
+  padding-bottom: 2rem;
 }
 
-
 /* LATEST FILES */
-.latest-files {
+#latest-files-section{
+  background-color: #f8f9fa;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .download-text {
