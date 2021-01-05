@@ -48,7 +48,37 @@ footer {
   padding-bottom: 2rem;
 }
 
-.card-body {
+.features-box {
+  width: 90%;
+  height: 90%;
+  margin-top: 1rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  background-color: #03506f;
+  border-radius: 5px;
+}
+
+.feature-icon {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+
+.feature-text {
+  text-align: center;
+  color: #dee2e6;
+}
+
+.more-info {
+  color: white;
+  text-decoration: none !important;
+  transition: 0.2s;
+}
+
+.more-info:hover {
+  transition: 0.2s;
+}
+/*.card-body {
   background-color: white;
 }
 
@@ -56,6 +86,7 @@ footer {
   padding: 2px;
   margin: 1.5rem;
 }
+*/
 
 /* NEWS & UPDATES */
 .news {
