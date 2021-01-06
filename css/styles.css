@@ -32,13 +32,22 @@ footer {
   padding: 0.35em 0.65em !important;
 }
 
+.cta-button {
+  margin-top: 3rem;
+}
+
+/* NEWS & UPDATES */
+.news-card {
+  padding-bottom: 2rem;
+}
+
 /* FEATURES */
 .features {
   padding-bottom: 2rem;
 }
 
 .features-box {
-  width: 80%;
+  width: 15rem;
   height: 90%;
   margin: 1rem auto;
   padding: 0 1.5rem 1.5rem 1.5rem;
@@ -66,22 +75,6 @@ footer {
 
 .more-info:hover {
   transition: 0.2s;
-}
-
-/* NEWS & UPDATES */
-.news-card {
-  padding-bottom: 2rem;
-}
-
-/* LATEST FILES */
-#latest-files {
-  background-color: #f8f9fa;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.download-text {
-  color: #11698e;
 }
 
 /* RANKINGS TABLE */
