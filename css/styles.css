@@ -133,6 +133,11 @@ footer {
 .download-button {
   margin-bottom: 0.3rem;
 }
+
+/* DONATION PAGE */
+.donate {
+  padding-bottom: 20rem;
+}
 /* FOOTER */
 .footer-text {
   margin: auto;
