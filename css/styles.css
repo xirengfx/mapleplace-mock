@@ -8,6 +8,7 @@ overflow-x: hidden;
 }
 
 footer {
+  width: 100%;
   background-color: #222831;
   text-align: center;
   color: white;
@@ -29,9 +30,6 @@ footer {
 
 .badge {
   padding: 0.35em 0.65em !important;
-}
-
-.online-notice {
 }
 
 /* FEATURES */
@@ -69,15 +67,6 @@ footer {
 .more-info:hover {
   transition: 0.2s;
 }
-/*.card-body {
-  background-color: white;
-}
-
-.card {
-  padding: 2px;
-  margin: 1.5rem;
-}
-*/
 
 /* NEWS & UPDATES */
 .news-card {
@@ -102,6 +91,7 @@ footer {
 
 .rankings-pages {
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .rankings-search {
@@ -110,8 +100,12 @@ footer {
 }
 
 /* VOTE */
+.vote {
+  padding-bottom: 5rem;
+}
+
 .vote-text {
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -129,6 +123,13 @@ footer {
 .vote-button {
   text-align: center;
 }
+
+/* DOWNLOADS */
+
+.downloads {
+  padding-bottom: 10rem;
+}
+
 /* FOOTER */
 .footer-text {
   margin: auto;
