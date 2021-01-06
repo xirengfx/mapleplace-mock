@@ -130,6 +130,9 @@ footer {
   padding-bottom: 10rem;
 }
 
+.download-button {
+  margin-bottom: 0.3rem;
+}
 /* FOOTER */
 .footer-text {
   margin: auto;
