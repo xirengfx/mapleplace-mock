@@ -32,11 +32,24 @@ footer {
   padding: 0.35em 0.65em !important;
 }
 
-.cta-button {
-  margin-top: 3rem;
+.cta-buttons {
+  margin-top: 2.5rem;
   margin-left: 0.5rem;
 }
 
+.cta-button {
+  padding: 1rem !important;
+}
+
+@media screen and (max-width: 990px) {
+  .cta-buttons {
+    margin-top: 0;
+  }
+
+  .cta-button {
+    padding: 0.5rem !important;
+  }
+}
 /* NEWS & UPDATES */
 .news-card {
   padding-bottom: 2rem;
