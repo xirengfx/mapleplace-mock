@@ -61,29 +61,17 @@ footer {
   padding-bottom: 2rem;
 }
 
-.features-box {
-  width: 15rem;
-  height: 90%;
-  margin: 1rem auto;
-  padding: 0 1.5rem 1.5rem 1.5rem;
-  background-color: #03506f;
-  border-radius: 5px;
+.features-card {
+  margin-top: 0.5rem;
+  padding-right: 3rem;
 }
 
-.feature-icon {
-  width: 100%;
-  text-align: center;
-  color: white;
-  margin-top: 2rem;
-}
-
-.feature-text {
-  text-align: center;
-  color: #dee2e6;
+.features-text {
+  margin-top: 1.5rem;
+  color: #00587a;
 }
 
 .more-info {
-  color: white;
   text-decoration: none !important;
   transition: 0.2s;
 }
