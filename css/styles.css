@@ -21,6 +21,10 @@ footer {
   background-color: #222831;
 }
 
+.col-lg-6 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
 
 /* MAIN */
 .main-header {
@@ -61,14 +65,19 @@ footer {
   padding-bottom: 2rem;
 }
 
-.features-card {
-  margin-top: 0.5rem;
-  padding-right: 3rem;
+.features-icon {
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
-.features-text {
-  margin-top: 1.5rem;
-  color: #00587a;
+.features-btn {
+  width: 100%;
+  text-align: left !important;
+  padding-top: 1rem !important;
+}
+
+.features-card {
+  padding-bottom: 0.5rem;
 }
 
 .more-info {
@@ -78,6 +87,7 @@ footer {
 
 .more-info:hover {
   transition: 0.2s;
+  color: #d0e8f2;
 }
 
 /* RANKINGS TABLE */
