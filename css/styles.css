@@ -61,23 +61,30 @@ footer {
 }
 
 /* FEATURES */
-.features {
+.features-container {
   padding-bottom: 2rem;
 }
 
-.features-icon {
-  margin-right: 0.5rem;
-  margin-bottom: 0.2rem;
+.features-heading {
+  margin-top: 2rem;
+  color: #1089ff;
+  padding-bottom: 1rem;
 }
 
-.features-btn {
-  width: 100%;
-  text-align: left !important;
-  padding-top: 1rem !important;
+.features-img {
+  padding-bottom: 1.5rem;
 }
 
-.features-card {
-  padding-bottom: 0.5rem;
+.features-description {
+  padding-bottom: 3rem;
+}
+
+.feature-icon {
+  color: #1089ff;
+}
+
+.feature-text {
+  color: #686d76;
 }
 
 .more-info {
